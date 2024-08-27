@@ -1,0 +1,99 @@
+
+table{
+position: relative;
+}
+.college{
+display: inline-block;
+font-family: sans-serif;
+color: #4FB8DD;
+font-size: 16px;
+}
+.feature{
+position: absolute;
+transform: translate(0%, -144%);
+color: white;
+
+}
+.img-txt{
+position: absolute;
+top: 10%; 
+left: 27%;
+font-size: 10px;
+}
+.display{
+display: none;
+}
+.total{
+display: flex;
+justify-content: space-between;
+}
+input[type="text"] {
+width: 98%;
+padding: 8px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+  
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+  
+th{
+font-family: sans-serif;
+font-size: 14px;
+color: #ffffff;
+padding: 12px 15px;
+text-align: left;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+.logo{
+display: inline-block;
+margin-right: 10px;
+}
+p{
+color: #666666;
+font-size: 11px;
+margin-top: 5px;
+}
+.package-fees{
+color: #3EAE8D;
+font-size: 14px;
+font-family: sans-serif;
+}
+td{
+height: 100px;
+padding-left: 12px;
+font-family: sans-serif;
+text-align: left;
+border-right: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+th {
+background-color: rgb(136, 189, 196);
+cursor: pointer;
+}
+th div{
+display: flex;
+justify-content: space-between;
+}
+th img{
+width: 8px;
+height: 12px;
+}
+th:hover {
+background-color: rgb(172, 221, 227);
+}
+.tr-bg{
+background-color: #FDF3EC;
+}
+tr:hover {
+background-color: #f1f1f1;
+}
+  
+
+  
+  
